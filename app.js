@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 require('dotenv/config');
 
-// MiddleWares
+//Third Party MiddleWares
 app.use(bodyParser.json());
 
 // Import Routes
