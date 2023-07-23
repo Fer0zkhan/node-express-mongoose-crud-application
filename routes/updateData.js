@@ -13,6 +13,7 @@ updateData.patch('/updateData', async(req, res) => {
             res.send('Not Updated');
         }
     } catch (error) {
+        console.log(error);
         res.send({ "message": error });
     }
 
