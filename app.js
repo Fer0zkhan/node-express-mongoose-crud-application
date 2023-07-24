@@ -22,7 +22,7 @@ app.use('/update', updateData);
 
 // DataBase Connectivity
 mongoose.connect(process.env.DB_NAME, { useNewUrlParser: true, useUnifiedTopology: true }, () => {
-    console.log("Connection Ready");
+    console.log("Database connected successfully!");
 })
 
 //Server Info
