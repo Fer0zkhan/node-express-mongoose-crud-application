@@ -14,7 +14,6 @@ const getData = require('./routes/getData');
 const delData = require('./routes/delData');
 const updateData = require('./routes/updateData');
 
-
 // Routes MiddleWares
 app.use('/post', postData);
 app.use('/get', getData);
