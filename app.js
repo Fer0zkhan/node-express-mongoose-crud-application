@@ -27,5 +27,5 @@ mongoose.connect(process.env.DB_NAME, { useNewUrlParser: true, useUnifiedTopolog
 
 //Server Info
 app.listen(process.env.PORT || 3000, () => {
-    console.log(`Server is running at port ${process.env.PORT || 3000}`);
+    console.log(`Server is running at port ${process.env.PORT || 3000}.`);
 });
