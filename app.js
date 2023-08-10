@@ -8,7 +8,6 @@ const bodyParser = require('body-parser');
 //Third Party MiddleWare
 app.use(bodyParser.json());
 
-
 // Import Routes
 const postData = require('./routes/postData');
 const getData = require('./routes/getData');
