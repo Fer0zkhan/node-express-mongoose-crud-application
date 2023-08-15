@@ -5,7 +5,7 @@ const app = express();
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 
-//Third Party MiddleWare
+//MiddleWare
 app.use(bodyParser.json());
 
 // Import Routes
