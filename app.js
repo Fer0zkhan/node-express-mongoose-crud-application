@@ -8,11 +8,7 @@ const bodyParser = require('body-parser');
 //Middleware
 app.use(bodyParser.json());
 
-// Import Routes
-const postData = require('./routes/postData');
-const getData = require('./routes/getData');
-const delData = require('./routes/delData');
-const updateData = require('./routes/updateData');
+
 
 // Routes MiddleWares
 app.use('/post', postData);
